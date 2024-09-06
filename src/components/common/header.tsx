@@ -65,11 +65,15 @@ export default function Header() {
                 isIconOnly
                 startContent={<HiShoppingCart size={28} />}
               />
+              <Button
+                variant="dark"
+                isIconOnly
+                startContent={<HiShoppingCart size={28} />}
+              />
             </SheetTrigger>
             <div
-              className={`${
-                numTotalItems >= 1 ? "block" : "hidden"
-              } cursor-default select-none`}
+              className={`${numTotalItems >= 1 ? "block" : "hidden"
+                } cursor-default select-none`}
             >
               <div className="absolute -top-1 left-6">
                 <p className="flex h-2 w-2 items-center justify-center rounded-full bg-gamtech p-3 text-xs text-white">
