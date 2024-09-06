@@ -69,6 +69,10 @@ export default function Header() {
                 variant="dark"
                 startContent={<HiShoppingCart size={38} />}
               />
+              <Button
+                variant="dark"
+                startContent={<HiShoppingCart size={38} />}
+              />
             </SheetTrigger>
 
             <div
