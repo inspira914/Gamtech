@@ -67,10 +67,10 @@ export default function Header() {
               />
               <Button
                 variant="dark"
-                isIconOnly
-                startContent={<HiShoppingCart size={28} />}
+                startContent={<HiShoppingCart size={38} />}
               />
             </SheetTrigger>
+
             <div
               className={`${numTotalItems >= 1 ? "block" : "hidden"
                 } cursor-default select-none`}
